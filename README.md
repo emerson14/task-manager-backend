@@ -11,4 +11,4 @@ Esta es una aplicación full-stack para gestionar tareas.
 
 3. Ejecuta el backend : en Java con SprintBoot
    ```bash
-  `mvn spring-boot:run`
+  mvn spring-boot:run
