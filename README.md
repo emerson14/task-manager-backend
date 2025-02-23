@@ -8,7 +8,9 @@ Esta es una aplicación full-stack para gestionar tareas.
 1. Descarga o clona el Archivo
    ```bash
    git clone https://github.com/emerson14/task-manager-backend.git
+   cd task-manager-backend
 
 3. Ejecuta el backend : en Java con SprintBoot
    ```bash
-  mvn spring-boot:run
+     mvn spring-boot:run
+
