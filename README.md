@@ -13,4 +13,6 @@ Esta es una aplicación full-stack para gestionar tareas.
 3. Ejecuta el backend : en Java con SprintBoot
    ```bash
      mvn spring-boot:run
-
+4. EjecutaR Test Implementando pruebas unitarias usando JUnit para Spring Boot, mockito
+5. EJECUTAR TEST con alguna tarea ya creada.
+6. En la base de datos para la prueba se utiliza h2 un motor de base de datos en tiempo de ejecucion.
