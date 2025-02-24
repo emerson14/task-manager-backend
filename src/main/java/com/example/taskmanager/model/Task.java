@@ -1,6 +1,9 @@
-package com.example.taskmanager;
+package com.example.taskmanager.model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Task {
@@ -9,6 +12,15 @@ public class Task {
     private Long id;
     private String title;
     private String description;
+
+    public Task() {}
+
+    // Constructor con parámetros
+    public Task(Long id, String title, String description) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+    }
 
     // Getters y Setters
     public Long getId() { return id; }
